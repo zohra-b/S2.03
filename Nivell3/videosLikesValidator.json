@@ -1,0 +1,29 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "user",
+      "video"
+    ],
+    "properties": {
+      "user": {
+        "bsonType": "objectId",
+        "description": "user id from users collection"
+      },
+      "video": {
+        "bsonType": "objectId",
+        "description": "video id from videos collection"
+      },
+      "likeCreationDate": {
+        "bsonType": "date"
+      },
+      "videosLikesStatus": {
+        "bsonType": "string",
+        "enum": [
+          "Like",
+          "Dislike"
+        ]
+      }
+    }
+  }
+}

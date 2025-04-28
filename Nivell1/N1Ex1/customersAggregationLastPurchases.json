@@ -1,0 +1,9 @@
+// db.customers.aggregate()
+  {
+    "$lookup": {
+      "from": "sales",
+      "localField": "lastPurchases",
+      "foreignField": "_id",
+      "as": "lastPurchases"
+    }
+  }

@@ -1,0 +1,40 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required" : [
+      "name",
+      "productCategory",
+      "price"
+    ],
+    "properties": {
+      "name" : {
+        "bsonType": "string"
+      },
+      "productCategory" : {
+        "bsonType" : "string",
+        "enum" : [
+          "pizza",
+          "hamburger",
+          "beguda"
+        ]
+      },
+      "pizzaCategoryId" : {
+        "bsonType" : "objectId",
+        "description" : "pizza category id from pizzaCategories collection"
+      },
+      "description" : {
+        "bsonType" : "string"
+      },
+      "image" : {
+        "bsonType" : "binData"
+      },
+      "price": {
+        "bsonType" : "decimal"
+      }
+    },
+
+    "dependencies" : {
+      "pizza" : ["pizzaCategoryId"]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "address",
+      "cp",
+      "city",
+      "province"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string"
+      },
+      "address": {
+        "bsonType": "string"
+      },
+      "cp": {
+        "bsonType": "string"
+      },
+      "city": {
+        "bsonType": "string"
+      },
+      "province": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

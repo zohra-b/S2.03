@@ -1,0 +1,43 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "brand",
+      "leftGraduation",
+      "rightGraduation",
+      "frame",
+      "leftLensColor",
+      "rightLensColor",
+      "price"
+    ],
+    "properties": {
+      "brand": {
+        "bsonType": "string"
+      },
+      "leftGraduation": {
+        "bsonType": "decimal",
+        "description": "type decimal, required"
+      },
+      "rightGraduation": {
+        "bsonType": "decimal"
+      },
+      "frame": {
+        "enum": [
+          "flotant",
+          "pasta",
+          "metàl·lica"
+        ]
+      },
+      "leftLensColor": {
+        "bsonType": "string"
+      },
+      "rightLensColor": {
+        "bsonType": "string"
+      },
+      "price": {
+        "bsonType": "decimal",
+        "minimum": 0
+      }
+    }
+  }
+}

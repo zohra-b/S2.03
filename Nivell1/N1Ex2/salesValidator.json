@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "date",
+      "glasses",
+      "employee",
+      "customer"
+    ],
+    "properties": {
+      "date": {
+        "bsonType": "date"
+      },
+      "glasses": {
+        "bsonType": "objectId",
+        "description": "glasses objectId, from glasses collection, required"
+      },
+      "employee": {
+        "bsonType": "string"
+      },
+      "customer": {
+        "bsonType": "objectId",
+        "description": "customer objectId, from customer collection, required"
+      }
+    }
+  }
+}

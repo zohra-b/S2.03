@@ -1,0 +1,52 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "address",
+      "phoneNumber",
+      "email",
+      "registrationDate"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string"
+      },
+      "address": {
+        "bsonType": "object",
+        "properties": {
+          "street": {
+            "bsonType": "string"
+          },
+          "number": {
+            "bsonType": "string"
+          },
+          "additionalInformation": {
+            "bsonType": "string"
+          },
+          "cp": {
+            "bsonType": "string"
+          },
+          "city": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "phoneNumber": {
+        "bsonType": "string"
+      },
+      "email": {
+        "bsonType": "string",
+        "pattern": "^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "description": "type string, must be a valid email address, required"
+      },
+      "registrationDate": {
+        "bsonType": "date",
+        "description": "must be a valid date, ex : (2025-04-21)"
+      },
+      "lastPurchases" : {
+        "bsonType" : "objectId"
+      }
+    }
+  }
+}

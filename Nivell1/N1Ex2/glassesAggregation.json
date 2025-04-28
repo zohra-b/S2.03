@@ -1,0 +1,20 @@
+[
+  {
+    "$lookup": {
+      "from": "suppliers",
+      "localField": "supplier",
+      "foreignField": "_id",
+      "as": "supplier"
+    }
+  },
+  {
+    "$lookup": {
+      "from": "customers",
+      "localField": "buyer",
+      "foreignField": "_id",
+      "as": "buyer"
+    }
+  }
+
+]
+

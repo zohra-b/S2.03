@@ -1,0 +1,174 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "address",
+      "phoneNumber",
+      "email",
+      "registrationDate"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string"
+      },
+      "address": {
+        "bsonType": "object",
+        "properties": {
+          "street": {
+            "bsonType": "string"
+          },
+          "number": {
+            "bsonType": "string"
+          },
+          "additionalInformation": {
+            "bsonType": "string"
+          },
+          "cp": {
+            "bsonType": "string"
+          },
+          "city": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "phoneNumber": {
+        "bsonType": "string"
+      },
+      "email": {
+        "bsonType": "string",
+        "pattern": "^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+      },
+      "registrationDate": {
+        "bsonType": "date",
+        "description": "must be a valid date, ex : (2025-04-21)"
+      },
+      "recommendedBy": {
+        "bsonType": "objectId",
+        "description": "id of the customer who did the recommendation"
+      },
+      "lastPurchases": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "date",
+            "glasses",
+            "employee"
+          ],
+          "properties": {
+            "date": {
+              "bsonType": "date"
+            },
+            "glasses": {
+              "bsonType": "object",
+              "required": [
+                "brand",
+                "supplier",
+                "leftGraduation",
+                "rightGraduation",
+                "frame",
+                "leftLensColor",
+                "rightLensColor",
+                "price"
+              ],
+              "properties": {
+                "brand": {
+                  "bsonType": "string"
+                },
+                "supplier": {
+                  "bsonType": "object",
+                  "required": [
+                    "name",
+                    "address",
+                    "tel",
+                    "fax",
+                    "nif"
+                  ],
+                  "properties": {
+                    "name": {
+                      "bsonType": "string",
+                      "description": "it may be a name or a brand: type string. Required"
+                    },
+                    "address": {
+                      "bsonType": "object",
+                      "description": "this should be an object with all its items",
+                      "required": [
+                        "street",
+                        "number",
+                        "floor",
+                        "door",
+                        "city",
+                        "cp",
+                        "country"
+                      ],
+                      "properties": {
+                        "street": {
+                          "bsonType": "string"
+                        },
+                        "number": {
+                          "bsonType": "string"
+                        },
+                        "floor": {
+                          "bsonType": "string"
+                        },
+                        "door": {
+                          "bsonType": "string"
+                        },
+                        "city": {
+                          "bsonType": "string"
+                        },
+                        "cp": {
+                          "bsonType": "string"
+                        },
+                        "country": {
+                          "bsonType": "string"
+                        }
+                      }
+                    },
+                    "tel": {
+                      "bsonType": "string"
+                    },
+                    "fax": {
+                      "bsonType": "string"
+                    },
+                    "nif": {
+                      "bsonType": "string"
+                    }
+                  }
+                },
+                "leftGraduation": {
+                  "bsonType": "decimal",
+                  "description": "type decimal, required"
+                },
+                "rightGraduation": {
+                  "bsonType": "decimal"
+                },
+                "frame": {
+                  "enum": [
+                    "flotant",
+                    "pasta",
+                    "metàl·lica"
+                  ]
+                },
+                "leftLensColor": {
+                  "bsonType": "string"
+                },
+                "rightLensColor": {
+                  "bsonType": "string"
+                },
+                "price": {
+                  "bsonType": "decimal",
+                  "minimum": 0
+                }
+              }
+            },
+            "employee": {
+              "bsonType": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

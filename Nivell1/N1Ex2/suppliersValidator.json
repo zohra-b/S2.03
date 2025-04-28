@@ -1,0 +1,73 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "address",
+      "tel",
+      "fax",
+      "nif"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string",
+        "description": "it may be a name or a brand: type string. Required"
+      },
+      "address": {
+        "bsonType": "object",
+        "description": "this should be an object with all its items",
+        "required": [
+          "street",
+          "number",
+          "floor",
+          "door",
+          "city",
+          "cp",
+          "country"
+        ],
+        "properties": {
+          "street": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "number": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "floor": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "door": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "city": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "cp": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          },
+          "country": {
+            "bsonType": "string",
+            "description": "this should be a string and is required"
+          }
+        }
+      },
+      "tel": {
+        "bsonType": "string",
+        "description": "this should be a string and is required"
+      },
+      "fax": {
+        "bsonType": "string",
+        "description": "this should be a string and is required"
+      },
+      "nif": {
+        "bsonType": "string",
+        "description": "this should be a string and is required"
+      }
+    }
+  }
+}

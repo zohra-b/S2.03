@@ -1,0 +1,52 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "brand",
+      "supplier",
+      "leftGraduation",
+      "rightGraduation",
+      "frame",
+      "leftLensColor",
+      "rightLensColor",
+      "price"
+    ],
+    "properties": {
+      "brand": {
+        "bsonType": "string"
+      },
+      "supplier" : {
+        "bsonType" : "objectId",
+        "description": "supplier id"
+      },
+      "leftGraduation": {
+        "bsonType": "decimal",
+        "description": "type decimal, required"
+      },
+      "rightGraduation": {
+        "bsonType": "decimal"
+      },
+      "frame": {
+        "enum": [
+          "flotant",
+          "pasta",
+          "metàl·lica"
+        ]
+      },
+      "leftLensColor": {
+        "bsonType": "string"
+      },
+      "rightLensColor": {
+        "bsonType": "string"
+      },
+      "price": {
+        "bsonType": "decimal",
+        "minimum": 0
+      },
+      "buyer" : {
+        "bsonType" :"objectId",
+        "description" : "customer id"
+      }
+    }
+  }
+}

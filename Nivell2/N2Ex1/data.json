@@ -1,0 +1,181 @@
+{
+  "CUSTOMERS": {
+    "name": "Mireille",
+    "surnames": "Sorgues",
+    "address": "19, rue Job",
+    "cp": "31000",
+    "city": "Toulouse",
+    "province": "Haute-Garonne",
+    "tel": "+3369865469"
+  },
+  "PIZZA CATEGORIES": [
+    {
+      "name": "Les classiques",
+      "lastModified": {
+        "$date": "2025-04-23T12:00:00Z"
+      }
+    },
+    {
+      "name": "Les blanques",
+      "lastModified": {
+        "$date": "2025-04-23T12:00:00Z"
+      }
+    }
+  ],
+  "PRODUCTS": [
+    {
+      "name": "Hamburguesa Clásica",
+      "productCategory": "hamburger",
+      "description": "Una hamburguesa amb bistec, enciam, tomàquet i formatge.",
+      "price": {
+        "$numberDecimal": "7.50"
+      }
+    },
+    {
+      "name": "Hamburguesa BBQ",
+      "productCategory": "hamburger",
+      "description": "Una hamburguesa ambsalsa barbacoa, bacó i ceba cruixent.",
+      "price": {
+        "$numberDecimal": "8.90"
+      }
+    },
+    {
+      "name": "Cola Zero",
+      "productCategory": "beguda",
+      "description": "Cola sense sucre.",
+      "price": {
+        "$numberDecimal": "2.00"
+      }
+    },
+    {
+      "name": "Birra Zero",
+      "productCategory": "beguda",
+      "description": "Cervesa sense alcohol.",
+      "price": {
+        "$numberDecimal": "2.00"
+      }
+    },
+    {
+      "name": "Pizza Margherita",
+      "productCategory": "pizza",
+      "pizzaCategoryId": {
+        "$oid": "662b80f42f8fb1f92c8eae12"
+      },
+      "description": "Pizza amb salsa de tomàquet, mozzarella i alfàbrega.",
+      "price": {
+        "$numberDecimal": "9.50"
+      }
+    },
+    {
+      "name": "Pizza 4 Fromages",
+      "productCategory": "pizza",
+      "pizzaCategoryId": {
+        "$oid": "662b80f42f8fb1f92c8eae13"
+      },
+      "description": "Pizza avec mozzarella, gorgonzola, emmental et parmesan.",
+      "price": {
+        "$numberDecimal": "11.00"
+      }
+    }
+  ],
+  "EMPLOYEES": {
+    "name": "Paola",
+    "surname": "Delgado",
+    "address": "30, rue du Coq d'Inde - 31200 Toulouse",
+    "phoneNumber": "+33631555441",
+    "nif": "23456789C",
+    "status": "delivery"
+  },
+  "SHOPS": [
+    {
+      "name": "Pizza Barcelona Centre",
+      "address": "Carrer de Balmes, 45",
+      "cp": "08007",
+      "city": "Barcelona",
+      "province": "Barcelona"
+    },
+    {
+      "name": "Burger Valencia Nord",
+      "address": "Avinguda del Port, 12",
+      "cp": "46021",
+      "city": "Valencia",
+      "province": "Valencia"
+    }
+  ],
+  "ORDERS": [
+    {
+      "shop": {
+        "$oid": "680c55ca4998de28b9c8c9c1"
+      },
+      "date": {
+        "$date": "2025-04-23T12:00:00Z"
+      },
+      "customer": {
+        "$oid": "680a1e175866cc8d7b5e5571"
+      },
+      "orderType": "Recollida en botiga",
+      "orderedProducts": [
+        {
+          "product": {
+            "$oid": "680c53904998de28b9c8c9bb"
+          },
+          "quantity": {
+            "$numberInt": "2"
+          }
+        },
+        {
+          "product": {
+            "$oid": "680c54044998de28b9c8c9bd"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          }
+        }
+      ],
+      "totalPrice": {
+        "$numberDecimal": "13.50"
+      }
+    },
+    {
+      "shop": {
+        "$oid": "680c55ca4998de28b9c8c9c2"
+      },
+      "date": {
+        "$date": "2025-04-26T12:00:00Z"
+      },
+      "customer": {
+        "$oid": "680a1e175866cc8d7b5e5571"
+      },
+      "orderType": "A domicili",
+      "employee": {
+        "$oid": "680a1e3e5866cc8d7b5e5573"
+      },
+      "deliveryAddress": "30 rue du cheval d'argent, 31122 Toulouse",
+      "deliveryDateHour": {
+        "$date": "2025-26-04T22:45:00Z"
+      },
+      "orderedProducts": [
+        {
+          "product": {
+            "$oid": "680c54394998de28b9c8c9be"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          }
+        },
+        {
+          "product": {
+            "$oid": "680c53a94998de28b9c8c9bc"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          }
+        }
+      ],
+      "totalPrice": {
+        "$numberDecimal": "13.00"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,72 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "shop",
+      "date",
+      "customer",
+      "orderType",
+      "orderedProducts",
+      "totalPrice"
+    ],
+    "properties": {
+      "shop": {
+        "bsonType": "objectId",
+        "description": "shop id in shops collection"
+      },
+      "date": {
+        "bsonType": "date"
+      },
+      "customer": {
+        "bsonType": "objectId",
+        "description": "customer id in customers collection"
+      },
+      "orderType": {
+        "bsonType": "string",
+        "enum": [
+          "A domicili",
+          "Recollida en botiga"
+        ]
+      },
+      "employee": {
+        "bsonType": "objectId",
+        "description": "employee id from employees collection"
+      },
+      "deliveryAddress": {
+        "bsonType": "string"
+      },
+      "deliveryDateHour": {
+        "bsonType": "date"
+      },
+      "orderedProducts": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "product",
+            "quantity"
+          ],
+          "properties": {
+            "product": {
+              "bsonType": "objectId",
+              "description": "product id in products collection"
+            },
+            "quantity": {
+              "bsonType": "int"
+            }
+          }
+        }
+      },
+      "totalPrice": {
+        "bsonType": "decimal"
+      },
+      "additionalInformation": {
+        "bsonType": "string"
+      }
+    },
+    "dependencies": {
+      "A domicili": ["employee", "customerAddress", "deliveryDateHour"]
+    }
+  }
+}
+

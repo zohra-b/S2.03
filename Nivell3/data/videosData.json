@@ -1,0 +1,87 @@
+[
+  {
+    "_id" : {
+      "$oid" : "681b3fdd853a2ebf77bd3a80"
+    },
+    "user" : {
+      "$oid": "681b2afa853a2ebf77bd3a76"
+    },
+    "title" : "Herencia y polimorfismo",
+    "videoDescription" : "De zero a hero con herencia in Java",
+    "videoSize" : 1234567897123454512,
+    "filename" : "herenciapoli.jpeg",
+    "videoLength" : 568,
+    "status" : "public",
+    "videosTags" : ["java", "herencia", "polimorfismo"],
+    "creationDate" : {
+      "$date": "2025-05-04T12:00:00.000Z"
+    },
+    "viewsCount" : 3,
+    "likesCount" : 0,
+    "dislikesCount" : 0
+
+  },
+  { "_id" : {
+    "$oid" : "681b409b853a2ebf77bd3a81"
+  },
+    "user" : {
+      "$oid": "681b2afa853a2ebf77bd3a76"
+    },
+    "title" : "Tests con JUnits",
+    "videoDescription" : "",
+    "videoSize" : 123456789712345,
+    "filename" : "testJunit.jpeg",
+    "videoLength" : 459,
+    "status" : "public",
+    "videosTags" : ["java", "testing", "Junit"],
+    "creationDate" : {
+      "$date": "2025-05-05T12:00:00.000Z"
+    },
+    "viewsCount" : 1,
+    "likesCount" : 0,
+    "dislikesCount" : 1
+  },
+
+  { "_id" : {
+    "$oid" : "681b415c853a2ebf77bd3a82"
+  },
+    "user" : {
+      "$oid": "681b32f2853a2ebf77bd3a77"
+    },
+    "title" : "Cocinar el pulpo como dios manda",
+    "videoDescription" : "En este video, te doy el secreto de mi abuela para cocinar el pulpo",
+    "videoSize" : 12345678971487875,
+    "filename" : "pulpovapor",
+    "videoLength" : 785,
+    "status" : "public",
+    "videosTags" : ["pulpo", "secretosdecocina"],
+    "creationDate" : {
+      "$date": "2025-05-05T12:00:00.000Z"
+    },
+    "viewsCount" : 12,
+    "likesCount" : 10,
+    "dislikesCount" : 0
+  },
+  { "_id" : {
+    "$oid" : "681b41e1853a2ebf77bd3a83"
+  },
+    "user" : {
+      "$oid": "681b32f2853a2ebf77bd3a77"
+    },
+    "title" : "Ensalada griega",
+    "videoDescription" : "Con el calor, siempre va bien una ensalada griega",
+    "videoSize" : 12345678971487875,
+    "filename" : "ensaladagriega.jpeg",
+    "videoLength" : 358,
+    "status" : "public",
+    "videosTags" : ["ensalada", "tomate", "pepino"],
+    "creationDate" : {
+      "$date": "2025-05-01T12:00:00.000Z"
+    },
+    "viewsCount" : 4,
+    "likesCount" : 1,
+    "dislikesCount" : 1
+  }
+
+
+]

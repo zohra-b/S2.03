@@ -1,0 +1,23 @@
+[
+
+  {
+    "_id": {
+      "$oid": "681b42ce853a2ebf77bd3a85"
+    },
+    "user": {
+      "$oid": "681b2afa853a2ebf77bd3a76"
+    },
+    "channelTitle": "El mejor de Java",
+    "channelVideos" : ["681b3fdd853a2ebf77bd3a80", "681b409b853a2ebf77bd3a81"]
+  },
+  {
+    "_id": {
+      "$oid": "681b3b45853a2ebf77bd3a7a"
+    },
+    "user": {
+      "$oid": "681b32f2853a2ebf77bd3a77"
+    },
+    "channelTitle": "Cocina gallega y cultura popular"
+  }
+
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "_id": {
+      "$oid": "680a24e5cf600830e4b5f8a1"
+    },
+    "name": "Les classiques",
+    "lastModified": {
+      "$date": "2025-04-23T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680a26ffcf600830e4b5f8a3"
+    },
+    "name": "Les blanques",
+    "lastModified": {
+      "$date": "2025-04-23T12:00:00.000Z"
+    }
+  }
+]

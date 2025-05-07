@@ -1,0 +1,59 @@
+[
+  {"N1": "Ex2"},
+  {
+    "_id": {
+      "$oid": "681b1724853a2ebf77bd3a57"
+    },
+    "name": "Katy Cuevas",
+    "address": {
+      "street": "c/ del llop",
+      "number": "10",
+      "additionalInformation": "1-1",
+      "cp": "08004",
+      "city": "Barcelona"
+    },
+    "phoneNumber": "635241447",
+    "email": "k.cuevas@gmail.com",
+    "registrationDate": {
+      "$date": "2025-04-21T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681b1748853a2ebf77bd3a58"
+    },
+    "name": "Vicky Gómez",
+    "address": {
+      "street": "c/ de la virtut",
+      "number": "10",
+      "additionalInformation": "1-1",
+      "cp": "08010",
+      "city": "Barcelona"
+    },
+    "phoneNumber": "635255411",
+    "email": "vigo1977@gmail.com",
+    "registrationDate": {
+      "$date": "2025-04-21T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681b1769853a2ebf77bd3a59"
+    },
+    "name": "Mar López",
+    "address": {
+      "street": "c/ del prat",
+      "number": "1",
+      "additionalInformation": "1-1",
+      "cp": "08038",
+      "city": "Barcelona"
+    },
+    "phoneNumber": "625625625",
+    "email": "mpardo@gmail.com",
+    "registrationDate": {
+      "$date": "2025-04-21T00:00:00.000Z"
+    },
+    "recommendedBy": {
+      "$oid": "681b1748853a2ebf77bd3a58"
+    }
+  }]

@@ -1,0 +1,35 @@
+[
+  {
+    "_id": {
+      "$oid": "680a1e3e5866cc8d7b5e5573"
+    },
+    "name": "Paola",
+    "surname": "Delgado",
+    "address": "Camí de les roses, 2",
+    "phoneNumber": "631321441",
+    "nif": "34566780B",
+    "status": "delivery"
+  },
+  {
+    "_id": {
+      "$oid": ""
+    },
+    "name": "Patri",
+    "surname": "Deprisa",
+    "address": "c/ de la virtut - 08015 Barcelona",
+    "phoneNumber": "631555441",
+    "nif": "23456789C",
+    "status": "delivery"
+  },
+  {
+    "_id": {
+      "$oid": "681b2213853a2ebf77bd3a6f"
+    },
+    "name": "Rola",
+    "surname": "Fardi",
+    "address": "Pg de la revolució, 52",
+    "phoneNumber": "631858747",
+    "nif": "34566444Z",
+    "status": "kitchen"
+  }
+]

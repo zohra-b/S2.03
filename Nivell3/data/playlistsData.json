@@ -1,0 +1,23 @@
+[
+  {
+  "_id": {
+    "$oid": "681b47a8853a2ebf77bd3a8b"
+  },
+  "user": {
+    "$oid": "681b2afa853a2ebf77bd3a76"
+  },
+  "playlistTitle": "Empezar con Java - 5 videos",
+  "playlistCreationDate": {
+    "$date": "2025-03-26T12:00:00.000Z"
+  },
+  "playlistStatus": "public",
+  "playlistVideos": [
+    {
+      "$oid": "681b3fdd853a2ebf77bd3a80"
+    },
+    {
+      "$oid": "681b409b853a2ebf77bd3a81"
+    }
+  ]
+}
+]

@@ -13,7 +13,10 @@
     ],
     "properties": {
       "brand": {
-        "bsonType": "string"
+        "bsonType": "objectId",
+        "description": "from brands collection, required"
+
+
       },
       "supplier" : {
         "bsonType" : "objectId",

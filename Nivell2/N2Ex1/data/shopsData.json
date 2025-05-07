@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "680c55ca4998de28b9c8c9c1"
+    },
+    "name": "Pizza Barcelona Centre",
+    "address": "Carrer de Balmes, 45",
+    "cp": "08007",
+    "city": "Barcelona",
+    "province": "Barcelona"
+  },
+  {
+    "_id": {
+      "$oid": "680c55ca4998de28b9c8c9c2"
+    },
+    "name": "Burger Valencia Nord",
+    "address": "Avinguda del Port, 12",
+    "cp": "46021",
+    "city": "Valencia",
+    "province": "Valencia"
+  }
+]

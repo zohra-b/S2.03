@@ -41,7 +41,7 @@
         "description" : "array of strings"
       },
       "creationDate": {
-        "bsonType": "timestamp"
+        "bsonType": "date"
       },
       "viewsCount": {
         "bsonType": "int",

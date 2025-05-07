@@ -1,0 +1,19 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "name",
+      "supplierId"
+    ],
+    "properties": {
+      "name": {
+        "bsonType": "string",
+        "description": "Brand name, required"
+      },
+      "supplierId": {
+        "bsonType": "objectId",
+        "description": "Reference to supplier, required"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "_id": {
+      "$oid": "681b2afa853a2ebf77bd3a76"
+    },
+    "email": "bestjavachannel@gamail.com",
+    "password": "123456",
+    "userName": "BestJavaChannel",
+    "birthdate": {
+      "$date": "2004-04-26T12:00:00.000Z"
+    },
+    "gender": "M",
+    "country": "Spain",
+    "cp": "08001"
+  },
+  {
+    "_id": {
+      "$oid": "681b32f2853a2ebf77bd3a77"
+    },
+    "email": "cocinaycultura@gmail.com",
+    "password": "123456",
+    "userName": "CocinaYCultura",
+    "birthdate": {
+      "$date": "1982-03-26T12:00:00.000Z"
+    },
+    "gender": "F",
+    "country": "Spain",
+    "cp": "08002"
+  },
+  {"_id": {
+      "$oid": "681b436b853a2ebf77bd3a87"
+      },
+    "email": "fridak@gmail.com",
+    "password": "123456",
+    "userName": "frida2004",
+    "birthdate": {
+      "$date": "2004-03-26T12:00:00.000Z"
+    },
+    "gender": "F",
+    "country": "Spain",
+    "cp": "08002"
+  },
+  {"_id": {
+    "$oid": "681b43a9853a2ebf77bd3a88"
+  },
+    "email": "gamer3000@gmail.com",
+    "password": "123456",
+    "userName": "wildgamer",
+    "birthdate": {
+      "$date": "1999-03-01T12:00:00.000Z"
+    },
+    "gender": "M",
+    "country": "Spain",
+    "cp": "08002"
+  }
+
+]

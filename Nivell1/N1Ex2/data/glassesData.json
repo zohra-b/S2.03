@@ -1,0 +1,66 @@
+[
+  {"N1" :  "Ex2"},
+
+  {
+    "_id": {
+      "$oid": "663b5f0e8c62f64e4c8e9e01"
+    },
+    "brand": {
+      "$oid": "663b700e8c62f64e4c8eb001"
+  },
+    "leftGraduation": {
+      "$numberDecimal": "-1.25"
+    },
+    "rightGraduation": {
+      "$numberDecimal": "-1.00"
+    },
+    "frame": "pasta",
+    "leftLensColor": "gris",
+    "rightLensColor": "gris",
+    "price": {
+      "$numberDecimal": "199.99"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "663b5f0e8c62f64e4c8e9e02"
+    },
+    "brand": {
+      "$oid": "663b700e8c62f64e4c8eb002"
+
+    },
+    "leftGraduation": {
+      "$numberDecimal": "-2.00"
+    },
+    "rightGraduation": {
+      "$numberDecimal": "-1.75"
+    },
+    "frame": "metàl·lica",
+    "leftLensColor": "bleu",
+    "rightLensColor": "bleu",
+    "price": {
+      "$numberDecimal": "249.50"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "663b5f0e8c62f64e4c8e9e03"
+    },
+    "brand": {
+      "$oid" : "663b700e8c62f64e4c8eb003"
+    },
+    "leftGraduation": {
+      "$numberDecimal": "-0.75"
+    },
+    "rightGraduation": {
+      "$numberDecimal": "-0.50"
+    },
+    "frame": "flotant",
+    "leftLensColor": "vert",
+    "rightLensColor": "vert",
+    "price": {
+      "$numberDecimal": "320.00"
+    }
+  }
+
+]

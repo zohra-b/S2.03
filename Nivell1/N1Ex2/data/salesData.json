@@ -1,0 +1,49 @@
+[
+  {"N1": "Ex2"},
+
+  {
+    "_id": {
+      "$oid": "681b1c8a853a2ebf77bd3a66"
+    },
+    "date": {
+      "$date": "2025-05-01T10:30:00.000Z"
+    },
+    "glasses": {
+      "$oid": "663b5f0e8c62f64e4c8e9e01"
+    },
+    "employee": "Mónica",
+    "customer": {
+      "$oid": "681b1724853a2ebf77bd3a57"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681b1cc3853a2ebf77bd3a67"
+    },
+    "date": {
+      "$date": "2025-05-02T15:45:00.000Z"
+    },
+    "glasses": {
+      "$oid": "663b5f0e8c62f64e4c8e9e02"
+    },
+    "employee": "Alicia",
+    "customer": {
+      "$oid": "681b1748853a2ebf77bd3a58"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681b1cdc853a2ebf77bd3a68"
+    },
+    "date": {
+      "$date": "2025-05-03T11:20:00.000Z"
+    },
+    "glasses": {
+      "$oid": "663b5f0e8c62f64e4c8e9e03"
+    },
+    "employee": "Alicia",
+    "customer": {
+      "$oid": "681b1769853a2ebf77bd3a59"
+    }
+  }
+]

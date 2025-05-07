@@ -1,0 +1,31 @@
+[
+  {"N1": "ex2"},
+  {
+    "_id": {
+      "$oid": "663b700e8c62f64e4c8eb001"
+    },
+    "name": "Ray-Ban",
+    "supplierId": {
+      "$oid": "663b65ae8c62f64e4c8ea001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "663b700e8c62f64e4c8eb002"
+    },
+    "name": "Oakley",
+    "supplierId": {
+      "$oid": "663b65ae8c62f64e4c8ea002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "663b700e8c62f64e4c8eb003"
+    },
+    "name": "Gucci",
+    "supplierId": {
+      "$oid": "663b65ae8c62f64e4c8ea003"
+    }
+  }
+
+]

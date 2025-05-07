@@ -1,0 +1,40 @@
+[
+  {
+    "_id": {
+      "$oid": "680a1e175866cc8d7b5e5571"
+    },
+    "name": "Mireille",
+    "surnames": "Sorgues",
+    "address": "c/ Vila, 10",
+    "cp": "08001",
+    "city": "Barcelona",
+    "province": "Catalunya",
+    "tel": "69865469"
+  },
+
+  {
+    "_id": {
+      "$oid": "681b2056853a2ebf77bd3a6b"
+    },
+    "name": "Olfa",
+    "surnames": "Ramírez",
+    "address": "c/ Verdaguer, 120",
+    "cp": "08015",
+    "city": "Barcelona",
+    "province": "Catalunya",
+    "tel": "633222555"
+  },
+  {
+    "_id": {
+      "$oid": "681b209f853a2ebf77bd3a6c"
+    },
+    "name": "Claudia",
+    "surnames": "Cardinal",
+    "address": "c/ de la lira, 2",
+    "cp": "08011",
+    "city": "Barcelona",
+    "province": "Catalunya",
+    "tel": "611888456"
+  }
+
+]

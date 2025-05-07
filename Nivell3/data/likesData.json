@@ -1,0 +1,34 @@
+[
+  {
+    "_id": {
+      "$oid": "681b4a07853a2ebf77bd3a91"
+    },
+    "user": {
+      "$oid": "681b436b853a2ebf77bd3a87"
+    },
+    "video": {
+      "$oid": "681b409b853a2ebf77bd3a81"
+    },
+    "likeCreationDate": {
+      "$date": "2025-05-05T12:00:00.000Z"
+    },
+    "videosLikesStatus": "Dislike"
+  },
+  {
+    "_id": {
+      "$oid": "681b4a5c853a2ebf77bd3a92"
+    },
+    "user": {
+      "$oid": "681b436b853a2ebf77bd3a87"
+    },
+    "video": {
+      "$oid": "681b415c853a2ebf77bd3a82"
+    },
+    "likeCreationDate": {
+      "$date": "2025-05-05T12:00:00.000Z"
+    },
+    "videosLikesStatus": "Like"
+  }
+
+
+]

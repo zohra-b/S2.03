@@ -1,0 +1,73 @@
+[
+  {
+    "_id": {
+      "$oid": "680c5a714998de28b9c8c9c9"
+    },
+    "shop": {
+      "$oid": "680c55ca4998de28b9c8c9c1"
+    },
+    "date": {
+      "$date": "2025-04-23T12:00:00.000Z"
+    },
+    "customer": {
+      "$oid": "680a1e175866cc8d7b5e5571"
+    },
+    "orderType": "Recollida en botiga",
+    "orderedProducts": [
+      {
+        "product": {
+          "$oid": "680c53904998de28b9c8c9bb"
+        },
+        "quantity": 2
+      },
+      {
+        "product": {
+          "$oid": "680c54044998de28b9c8c9bd"
+        },
+        "quantity": 1
+      }
+    ],
+    "totalPrice": {
+      "$numberDecimal": "13.50"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680c5cc54998de28b9c8c9ce"
+    },
+    "shop": {
+      "$oid": "680c55ca4998de28b9c8c9c2"
+    },
+    "date": {
+      "$date": "2025-04-26T12:00:00.000Z"
+    },
+    "customer": {
+      "$oid": "680a1e175866cc8d7b5e5571"
+    },
+    "orderType": "A domicili",
+    "employee": {
+      "$oid": "680a1e3e5866cc8d7b5e5573"
+    },
+    "deliveryAddress": "30 rue du cheval d'argent, 31122 Toulouse",
+    "deliveryDateHour": {
+      "$date": "1970-01-01T00:00:00.000Z"
+    },
+    "orderedProducts": [
+      {
+        "product": {
+          "$oid": "680c54394998de28b9c8c9be"
+        },
+        "quantity": 1
+      },
+      {
+        "product": {
+          "$oid": "680c53a94998de28b9c8c9bc"
+        },
+        "quantity": 1
+      }
+    ],
+    "totalPrice": {
+      "$numberDecimal": "13.00"
+    }
+  }
+]

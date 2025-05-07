@@ -1,0 +1,33 @@
+[
+  {
+    "_id": {
+      "$oid": "681b48b3853a2ebf77bd3a8d"
+    },
+    "user" : {
+      "$oid": "681b43a9853a2ebf77bd3a88"
+    },
+    "video" : {
+      "$oid" : "681b3fdd853a2ebf77bd3a80"
+    } ,
+    "text" : "Me ha encantado !",
+    "commentCreationDate" :  {
+      "$date": "2025-05-04T12:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681b4912853a2ebf77bd3a8e"
+    },
+    "user" : {
+      "$oid": "681b43a9853a2ebf77bd3a88"
+    },
+    "video" : {
+      "$oid" : "681b409b853a2ebf77bd3a81"
+    } ,
+    "text" : "Ahora estoy aún más perdido. Haría falta otro vídeo, gracias",
+    "commentCreationDate" :  {
+      "$date": "2025-05-04T12:00:00.000Z"
+    }
+  }
+
+]

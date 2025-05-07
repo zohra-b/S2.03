@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {
+      "$oid": "680c52e54998de28b9c8c9b9"
+    },
+    "name": "Hamburguesa Clásica",
+    "productCategory": "hamburger",
+    "description": "Una hamburguesa amb bistec, enciam, tomàquet i formatge.",
+    "price": {
+      "$numberDecimal": "7.50"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680c53264998de28b9c8c9ba"
+    },
+    "name": "Hamburguesa BBQ",
+    "productCategory": "hamburger",
+    "description": "Una hamburguesa ambsalsa barbacoa, bacó i ceba cruixent.",
+    "price": {
+      "$numberDecimal": "8.90"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680c53904998de28b9c8c9bb"
+    },
+    "name": "Cola Zero",
+    "productCategory": "beguda",
+    "description": "Cola sense sucre.",
+    "price": {
+      "$numberDecimal": "2.00"
+    }
+  },
+  {
+  "_id": {
+    "$oid": "680c53a94998de28b9c8c9bc"
+  },
+  "name": "Birra Zero",
+  "productCategory": "beguda",
+  "description": "Cervesa sense alcohol.",
+  "price": {
+    "$numberDecimal": "2.00"
+  }
+},
+  {
+    "_id": {
+      "$oid": "680c54044998de28b9c8c9bd"
+    },
+    "name": "Pizza Margherita",
+    "productCategory": "pizza",
+    "pizzaCategoryId": {
+      "$oid": "662b80f42f8fb1f92c8eae12"
+    },
+    "description": "Pizza amb salsa de tomàquet, mozzarella i alfàbrega.",
+    "price": {
+      "$numberDecimal": "9.50"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680c54394998de28b9c8c9be"
+    },
+    "name": "Pizza 4 Fromages",
+    "productCategory": "pizza",
+    "pizzaCategoryId": {
+      "$oid": "662b80f42f8fb1f92c8eae13"
+    },
+    "description": "Pizza avec mozzarella, gorgonzola, emmental et parmesan.",
+    "price": {
+      "$numberDecimal": "11.00"
+    }
+  }
+]

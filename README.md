@@ -1,4 +1,4 @@
-<p align="center"><h1 align="center">S3.02 Patterns 2 </h1></p>
+<p align="center"><h1 align="center">S2.03 - MongoDB Structure </h1></p>
 
 <br>
 
@@ -6,7 +6,7 @@
 
 ## 📍 Objectives
 
-Learn to identify and manage software construction patterns.
+Learn to model noSql databases.
 ---
 
 ## 👾 Exercises
